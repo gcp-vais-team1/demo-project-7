@@ -1,4 +1,5 @@
 {
-  "model_name": "adult",
-  "version": "v4"
+  "model": "demo_model_7",
+  "uri": "s3://bucket/model_7.pkl",
+  "registered_on": "2025-07-22T12:44:18.245232"
 }
