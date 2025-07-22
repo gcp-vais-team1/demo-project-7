@@ -1,0 +1,18 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  AWS_SECRET_ACCESS_KEY: 65ed7ff77d6b7a3493e3d1cb71b499ed096d5207
+  AWS_ACCESS_KEY_ID: 4b2291123f96cc3edf3a105d0d297f6c98c7161a
+  SECRET_TOKEN: ed1cef49-1f0c-4abc-a3ec-35ad4572dca4
+
+test:
+  stage: test
+  script:
+    - echo 'Running tests...'
+
+deploy:
+  stage: deploy
+  script:
+    - echo 'Deploying...'
